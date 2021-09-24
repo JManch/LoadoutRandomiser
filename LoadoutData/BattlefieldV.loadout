@@ -1,0 +1,336 @@
+Class:
+{
+    Assault,
+    {
+        Combat Role:
+        {
+            Light Infantry,
+            Vehicle Buster,
+        }
+        Primary:
+        {
+            Sturmgewehr 1-5, {Sights:{1x, 1.5x, 2x, 3x,}}
+            Gewehr 43, {Sights:{1x, 1.5x, 2x, 3x,}}
+            M1A1 Carbine, {Sights:{1x, 1.5x, 2x, 3x,}}
+            M1907 SF, {Sights:{1x, 1.5x, 2x, 3x,}}
+            Turner SMLE, {Sights:{1x, 1.5x, 2x, 3x,}}
+            StG 44, {Sights:{1x, 1.5x, 2x, 3x,}}
+            Selbstlader 1916, {Sights:{1x, 1.5x, 2x, 3x,}}
+            Gewehr 1-5, {Sights:{1x, 1.5x, 2x, 3x,}}
+            Ag m/42, {Sights:{1x, 1.5x, 2x, 3x,}}
+            Ribeyrolles 1918, {Sights:{1x, 1.5x, 2x, 3x,}}
+            MAS 44, {Sights:{1x, 1.5x, 2x, 3x,}}
+            Breda M1935 PG, {Sights:{1x, 1.5x, 2x, 3x,}}
+            Karabin 1938M, {Sights:{1x, 1.5x, 2x, 3x,}}
+            M1 Garand, {Sights:{1x, 1.5x, 2x, 3x,}}
+            M2 Carbine, {Sights:{1x, 1.5x, 2x, 3x,}}
+            M1941 Johnson, {Sights:{1x, 1.5x, 2x, 3x,}}
+            No Primary Weapon,
+        }
+        Sidearm:
+        {
+            P38 Pistol,
+            P08 Pistol,
+            Repetierpistole M1912,
+            M1911,
+            Ruby,
+            Mk VI Revolver,
+            Liberator,
+            Type 94,
+            Model 27,
+            PPK,
+            PPK Suppressed,
+            Welrod,
+            M1911 Suppressed,
+            No Secondary Weapon,
+        }
+        Melee:
+        {
+            Scout Knife M1916,
+            Hatchet,
+            EGW Survival Knife,
+            Club,
+            Pickaxe,
+            Shovel,
+            British Army Jack Knife,
+            Kukri,
+            No Melee,
+        }
+        Grenade:
+        {
+            Frag Grenade,
+            Incendiary Grenade,
+            Anti-Tank Bundle Grenade,
+            Demolition Grenade,
+            Type 99 Mine,
+            Firecrackers,
+            No Grenade,
+        }
+        Gadget 1:
+        {
+            Panzerfaust,
+            M1A1 Bazooka,
+            PIAT,
+            Fliegerfaust,
+            No Gadget,
+        }
+        Gadget 2:
+        {
+            Sticky Dynamite,
+            AT Mine,
+            Frag Grenade Rifle,
+            Lunge Mine,
+            Pistol Flamethrower,
+            No Gadget,
+        }
+    }
+    Medic,
+    {
+        Combat Role:
+        {
+            Combat Medic,
+            Field Medic,
+        }
+        Primary:
+        {
+            STEN, {Sights:{1x, 1.25x, 1.5x}}
+            Suomi KP/-31, {Sights:{1x, 1.25x, 1.5x}}
+            MP40, {Sights:{1x, 1.25x, 1.5x}}
+            MP28, {Sights:{1x, 1.25x, 1.5x}}
+            EMP, {Sights:{1x, 1.25x, 1.5x}}
+            MP34, {Sights:{1x, 1.25x, 1.5x}}
+            M1928A1, {Sights:{1x, 1.25x, 1.5x}}
+            ZK-383, {Sights:{1x, 1.25x, 1.5x}}
+            Commando Carbine, {Sights:{1x, 1.25x, 1.5x}}
+            M28 con Tromboncino, {Sights:{1x, 1.25x, 1.5x}}
+            MAB 38, {Sights:{1x, 1.25x, 1.5x}}
+            Jungle Carbine, {Sights:{1x, 1.25x, 1.5x}}
+            Type 100, {Sights:{1x, 1.25x, 1.5x}}
+            M3 Grease Gun, {Sights:{1x, 1.25x, 1.5x}}
+            Type 2A, {Sights:{1x, 1.25x, 1.5x}}
+            Welgun, {Sights:{1x, 1.25x, 1.5x}}
+            No Primary Weapon,
+        }
+        Sidearm:
+        {
+            P38 Pistol,
+            P08 Pistol,
+            Repetierpistole M1912,
+            M1911,
+            Ruby,
+            Mk VI Revolver,
+            Liberator,
+            Type 94,
+            Model 27,
+            PPK,
+            PPK Suppressed,
+            Welrod,
+            M1911 Suppressed,
+            No Secondary Weapon,
+        }
+        Melee:
+        {
+            Scout Knife M1916,
+            Hatchet,
+            EGW Survival Knife,
+            Club,
+            Pickaxe,
+            Shovel,
+            British Army Jack Knife,
+            Kukri,
+            No Melee,
+        }
+        Grenade:
+        {
+            Frag Grenade,
+            Smoke Grenade,
+            Incendiary Grenade,
+            Demolition Grenade,
+            Type 99 Mine,
+            Firecrackers,
+            No Grenade,
+        }
+        Gadget 1:
+        {
+            Bandages,
+            Medical Crate,
+            No Gadget,
+        }
+        Gadget 2:
+        {
+            Smoke Grenade Rifle,
+            AP Mine,
+            No Gadget,
+        }
+    }
+    Support,
+    {
+        Combat Role:
+        {
+            Machine Gunner,
+            Engineer,
+        }
+        Primary:
+        {
+            KE7, {Sights:{1x, 1.25x, 1.5x, 3x}}
+            Model 37, {Sights:{1x, 1.25x, 1.5x, 3x}}
+            Type 97 MG, {Sights:{1x, 1.25x, 1.5x, 3x}}
+            BAR M1918A2, {Sights:{1x, 1.25x, 1.5x, 3x}}
+            S2-200, {Sights:{1x, 1.25x, 1.5x, 3x}}
+            M1919A6, {Sights:{1x, 1.25x, 1.5x, 3x}}
+            Madsen MG, {Sights:{1x, 1.25x, 1.5x, 3x}}
+            LS/26, {Sights:{1x, 1.25x, 1.5x, 3x}}
+            M1922 MG, {Sights:{1x, 1.25x, 1.5x, 3x}}
+            M1897, {Sights:{1x, 1.25x, 1.5x, 3x}}
+            VGO, {Sights:{1x, 1.25x, 1.5x, 3x}}
+            MG 42, {Sights:{1x, 1.25x, 1.5x, 3x}}
+            FG-42, {Sights:{1x, 1.25x, 1.5x, 3x}}
+            M30 Drilling, {Sights:{1x, 1.25x, 1.5x, 3x}}
+            Lewis Gun, {Sights:{1x, 1.25x, 1.5x, 3x}}
+            Bren Gun, {Sights:{1x, 1.25x, 1.5x, 3x}}
+            12g Automatic, {Sights:{1x, 1.25x, 1.5x, 3x}}
+            MG 34, {Sights:{1x, 1.25x, 1.5x, 3x}}
+            Type 11 LMG, {Sights:{1x, 1.25x, 1.5x, 3x}}
+            Chauchat, {Sights:{1x, 1.25x, 1.5x, 3x}}
+            Sjögren Shotgun, {Sights:{1x, 1.25x, 1.5x, 3x}}
+            No Primary Weapon,
+        }
+        Sidearm:
+        {
+            P38 Pistol,
+            P08 Pistol,
+            Repetierpistole M1912,
+            M1911,
+            Ruby,
+            Mk VI Revolver,
+            Liberator,
+            Type 94,
+            Model 27,
+            PPK,
+            PPK Suppressed,
+            Welrod,
+            M1911 Suppressed,
+            No Secondary Weapon,
+        }
+        Melee:
+        {
+            Scout Knife M1916,
+            Hatchet,
+            EGW Survival Knife,
+            Club,
+            Pickaxe,
+            Shovel,
+            British Army Jack Knife,
+            Kukri,
+            No Melee,
+        }
+        Grenade:
+        {
+            Incendiary Grenade,
+            Impact Grenade,
+            Sticky Grenade,
+            Demolition Grenade,
+            Type 99 Mine,
+            Firecrackers,
+            No Grenade,
+        }
+        Gadget 1:
+        {
+            Ammo Pouch,
+            Ammo Crate,
+            No Gadget,
+        }
+        Gadget 2:
+        {
+            AT Mine,
+            AT Grenade Pistol,
+            AP Mine,
+            Lunge Mine,
+            Shaped Charge,
+            Kampfpistole,
+            No Gadget,
+        }
+    }
+    Recon,
+    {
+        Combat Role:
+        {
+            Sniper,
+            Pathfinder,
+        }
+        Primary:
+        {
+            Lee-Enfield No.4 MK1, {Sights:{1.5x, 2x, 3x, 6x}}
+            Model 8, {Sights:{1.5x, 2x, 3x, 6x}}
+            Gewehr M95/30, {Sights:{1.5x, 2x, 3x, 6x}}
+            ZH-29, {Sights:{1.5x, 2x, 3x, 6x}}
+            Krag-Jørgensen, {Sights:{1.5x, 2x, 3x, 6x}}
+            RSC, {Sights:{1.5x, 2x, 3x, 6x}}
+            Kar98k, {Sights:{1.5x, 2x, 3x, 6x}}
+            Selbstlader 1906, {Sights:{1.5x, 2x, 3x, 6x}}
+            Ross Rifle Mk III, {Sights:{1.5x, 2x, 3x, 6x}}
+            Boys AT Rifle, {Sights:{1.5x, 2x, 3x, 6x}}
+            P08 Carbine, {Sights:{1.5x, 2x, 3x, 6x}}
+            Panzerbüchse 39, {Sights:{1.5x, 2x, 3x, 6x}}
+            Type 99 Arisaka, {Sights:{1.5x, 2x, 3x, 6x}}
+            Trench Carbine, {Sights:{1.5x, 2x, 3x, 6x}}
+            M3 Infrared, {Sights:{1.5x, 2x, 3x, 6x}}
+            K31/43, {Sights:{1.5x, 2x, 3x, 6x}}
+            No Primary Weapon,
+        }
+        Sidearm:
+        {
+            P38 Pistol,
+            P08 Pistol,
+            Repetierpistole M1912,
+            M1911,
+            Ruby,
+            Mk VI Revolver,
+            Liberator,
+            Type 94,
+            Model 27,
+            PPK,
+            PPK Suppressed,
+            Welrod,
+            M1911 Suppressed,
+            No Secondary Weapon,
+        }
+        Melee:
+        {
+            Scout Knife M1916,
+            Hatchet,
+            EGW Survival Knife,
+            Club,
+            Pickaxe,
+            Shovel,
+            British Army Jack Knife,
+            Kukri,
+            No Melee,
+        }
+        Grenade:
+        {
+            Frag Grenade,
+            Throwing Knife,
+            Smoke Grenade,
+            Demolition Grenade,
+            Type 99 Mine,
+            Firecrackers,
+            No Grenade,
+        }
+        Gadget 1:
+        {
+            Spotting Scope,
+            Doppel Schuss,
+            Flare Gun,
+            No Gadget,
+        }
+        Gadget 2:
+        {
+            AP Mine,
+            Sniper Decoy,
+            Spawn Beacon,
+            RMN50 Rifle Frag,
+            No Gadget,
+        }
+    }
+}
