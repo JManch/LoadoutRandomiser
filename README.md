@@ -52,7 +52,7 @@ As you can see, one of the options inside the category was randomly chosen.
 
 **Conditional category example**
 
-If a category is a child of a point, it will only be rolled if the parent option is randomly selected. 
+If a category is a child of an option, it will only be included if the parent option is randomly selected. 
 ```
 CategoryName:
 {
