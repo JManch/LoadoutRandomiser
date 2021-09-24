@@ -21,8 +21,17 @@ namespace LoadoutRandomiser
             loadoutData.Clear();
 
             Console.WriteLine("> Searching " + dataPath + " for loadouts");
+            Thread.Sleep(1000);
 
-            string[] dataPaths = Directory.GetFiles(dataPath);
+            string[] dataPaths;
+            try{
+                dataPaths = Directory.GetFiles(dataPath);
+            }
+            catch {
+                Console.WriteLine("> Error could not find LoadoutData folder. Ensure folder exists in the same path as the executable then type \"reload\"");
+                return;
+            }
+            
             List<string> loadoutPaths = new List<string>();
 
             foreach (string dataPath in dataPaths) {
@@ -31,7 +40,6 @@ namespace LoadoutRandomiser
                 }
             }
 
-            Thread.Sleep(1000);
             Console.WriteLine("> Found {0} loadouts", loadoutPaths.Count);
 
             Stopwatch sw = new Stopwatch();
