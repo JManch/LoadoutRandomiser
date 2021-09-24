@@ -119,7 +119,7 @@ namespace LoadoutRandomiser
                     foreach(Option o in randomOptions) {
                         result = result + o.name + ", ";
                     }
-                    result = result.Remove(result.Length - 1, 1);
+                    result = result.Remove(result.Length - 2, 2);
                     randomLoadout.Add(new Tuple<string, string>(node.name, result));
 
                     foreach(Option o in randomOptions) {
