@@ -4,7 +4,7 @@ LoadoutRandomiser is a simple console application for generating random game loa
 
 ## Currently Supported Games
 
-- BattlefieldV
+- Battlefield V
 
 ## Adding a Game
 
