@@ -19,16 +19,22 @@ namespace LoadoutRandomiser
         public void AddCategory(string name) {
             
             Category newCategory;
-            if (current == null) {
-                newCategory = new Category(null, name);
-                root = newCategory;
-            }
-            else {
+            if (current != null && current is Option) {
+
                 newCategory = new Category(current, name);
                 current.AddChild(newCategory);
+                nodes.Add(newCategory);
+                ++categoryCount;
             }
-            nodes.Add(newCategory);
-            ++categoryCount;
+            else if (current == null){
+                newCategory = new Category(null, name);
+                root = newCategory;
+                nodes.Add(newCategory);
+                ++categoryCount;
+            }
+            else {
+                Console.WriteLine("> Failed to add category " + name + " as it's parent " + current.name + " is a category. Categories must be children of options.");
+            }
         }
 
         public void AddOption(string name) {
@@ -40,8 +46,11 @@ namespace LoadoutRandomiser
                 nodes.Add(newOption);
                 ++optionCount;
             }
+            else if(current == null) {
+                Console.WriteLine("> Warning the root element is an option whilst it should be a category. Loadout will not load correctly unless this is fixed.");
+            }
             else {
-                Console.WriteLine("Failed to add option " + name + " as it's parent " + current.name + " is an option. Options must be children of categories.");
+                Console.WriteLine("> Failed to add option " + name + " as it's parent " + current.name + " is an option. Options must be children of categories.");
             }
         }
 
