@@ -1,4 +1,4 @@
-# LoadoutRandomiser
+# Loadout Randomiser
 
 LoadoutRandomiser is a simple console application for generating random game loadouts. Here is an example output from generating a Battlefield V loadout:
 ```
