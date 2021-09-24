@@ -1,0 +1,369 @@
+Class:
+{
+    Driller,
+    {
+        Passive Perks: 3*
+        {
+            Deep Pockets,
+            Veteran Depositor,
+            Sweet Tooth,
+            Resupplier,
+            Unstoppable,
+            Vampire,
+            Strong Arm,
+            Friendly,
+            Elemental Insulation,
+            Second Wind,
+            Born Ready,
+            It's a Bug Thing,
+            Thorns,
+        }
+        Active Perks: 2*
+        {
+            Berzerker,
+            Field Medic,
+            Iron Will,
+            Heightened Senses,
+            Shield Link,
+            Dash,
+            Beast Master,
+            See You In Hell,
+            Hover Boots,
+        }
+        Primary:
+        {
+            CRSPR Flamethrower,
+            {
+                Overclock:
+                {
+                    Ice Storm,
+                    Ice Spear,
+                    Snowball,
+                    Improved Thermal Efficiency,
+                    Tuned Cooler,
+                    Flow Rate Expansion,
+                }
+            }
+            Cryo Cannon,
+            {
+                Overclock:
+                {
+                    Lighter Tanks,
+                    Fuel Stream Diffuser,
+                    Sticky Fuel,
+                    Sticky Additive,
+                    Compact Feed Valves,
+                    Face Melter,
+                }
+            }
+        }
+        Secondary:
+        {
+            Subata 120,
+            {
+                Overclock:
+                {
+                    Chain Hit,
+                    Homebrew Powder,
+                    Oversized Magazine,
+                    Automatic Fire,
+                    Explosive Reload,
+                    Tranquilizer Rounds,
+                }
+            }
+            Experimental Plasma Charger,
+            {
+                Overclock:
+                {
+                    Energy Rerouting,
+                    Magnetic Cooling Unit,
+                    Heat Pipe,
+                    Heavy Hitter,
+                    Overcharger,
+                    Persistent Plasma,
+                }
+            }
+        }
+        Throwable:
+        {
+            Impact Axe,
+            High Explosive Grenade,
+            Neurotoxin Grenade,
+        }
+    }
+    Engineer,
+    {
+        Passive Perks: 3*
+        {
+            Deep Pockets,
+            Veteran Depositor,
+            Sweet Tooth,
+            Resupplier,
+            Unstoppable,
+            Vampire,
+            Strong Arm,
+            Friendly,
+            Elemental Insulation,
+            Second Wind,
+            Born Ready,
+            It's a Bug Thing,
+            Thorns,
+        }
+        Active Perks: 2*
+        {
+            Berzerker,
+            Field Medic,
+            Iron Will,
+            Heightened Senses,
+            Shield Link,
+            Dash,
+            Beast Master,
+            See You In Hell,
+            Hover Boots,
+        }
+        Primary:
+        {
+            "Warthog" Auto 210,
+            {
+                Overclock:
+                {
+                    Stunner,
+                    Light-Weight Magazines,
+                    Magnetic Pellet Alignment,
+                    Cycle Overload,
+                    Mini Shells,
+                }
+            }
+            "Stubby" Voltaic SMG,
+            {
+                Overclock:
+                {
+                    Super-Slim Rounds,
+                    Well Oiled Machine,
+                    EM Refire Booster,
+                    Light-Weight Rounds,
+                    Turret Arc,
+                    Turret EM Discharge,
+                }
+            }
+        }
+        Secondary:
+        {
+            Deepcore 40mm PGL,
+            {
+                Overclock:
+                {
+                    Clean Sweep,
+                    Pack Rat,
+                    Compact Rounds,
+                    RJ250 Compound,
+                    Fat Boy,
+                    Hyper Propellant,
+                }
+            }
+            Breach Cutter,
+            {
+                Overclock:
+                {
+                    Light-Weight Cases,
+                    Roll Control,
+                    Stronger Plasma Current,
+                    Return to Sender,
+                    High Voltage Crossover,
+                    Spinning Death,
+                    Inferno,
+                }
+            }
+        }
+        Throwable:
+        {
+            L.U.R.E.,
+            Plasma Burster,
+            Proximity Mine,
+        }
+    }
+    Gunner,
+    {
+        Passive Perks: 3*
+        {
+            Deep Pockets,
+            Veteran Depositor,
+            Sweet Tooth,
+            Resupplier,
+            Unstoppable,
+            Vampire,
+            Strong Arm,
+            Friendly,
+            Elemental Insulation,
+            Second Wind,
+            Born Ready,
+            It's a Bug Thing,
+            Thorns,
+        }
+        Active Perks: 2*
+        {
+            Berzerker,
+            Field Medic,
+            Iron Will,
+            Heightened Senses,
+            Shield Link,
+            Dash,
+            Beast Master,
+            See You In Hell,
+            Hover Boots,
+        }
+        Primary:
+        {
+            "Lead Storm" Powered Minigun,
+            {
+                Overclock:
+                {
+                    A Little More Oomph!,
+                    Thinned Drum Walls,
+                    Burning Hell,
+                    Compact Feed Mechanism,
+                    Exhaust Vectoring,
+                    Bullet Hell,
+                    Lead Storm,
+                }
+            }
+            "Thunderhead" Heavy Autocannon,
+            {
+                Overclock:
+                {
+                    Composite Drums,
+                    Splintering Shells,
+                    Carpet Bomber,
+                    Combat Mobility,
+                    Big Bertha,
+                    Neurotoxin Payload,
+                }
+            }
+        }
+        Secondary:
+        {
+            "Bulldog" Heavy Revolver,
+            {
+                Overclock:
+                {
+                    Chain Hit,
+                    Homebrew Powder,
+                    Volatile Bullets,
+                    Six Shooter,
+                    Elephant Rounds,
+                    Magic Bullets,   
+                }
+            }
+            BRT7 Burst Fire Gun,
+            {
+                Overclock:
+                {
+                    Composite Casings,
+                    Full Chamber Seal,
+                    Compact Mags,
+                    Experimental Rounds,
+                    Electro Minelets,
+                    Micro Flechettes,
+                    Lead Spray,
+                }
+            }
+        }
+        Throwable:
+        {
+            Sticky Grenade,
+            Incendiary Grenade,
+            Cluster Grenade,
+        }
+    }
+    Scout,
+    {
+        Passive Perks: 3*
+        {
+            Deep Pockets,
+            Veteran Depositor,
+            Sweet Tooth,
+            Resupplier,
+            Unstoppable,
+            Vampire,
+            Strong Arm,
+            Friendly,
+            Elemental Insulation,
+            Second Wind,
+            Born Ready,
+            It's a Bug Thing,
+            Thorns,
+        }
+        Active Perks: 2*
+        {
+            Berzerker,
+            Field Medic,
+            Iron Will,
+            Heightened Senses,
+            Shield Link,
+            Dash,
+            Beast Master,
+            See You In Hell,
+            Hover Boots,
+        }
+        Primary:
+        {
+            Deepcore GK2,
+            {
+                Overclock:
+                {
+                    Compact Ammo,
+                    Gas Rerouting,
+                    Homebrew Powder,
+                    Overclocked Firing Mechanism,
+                    Bullets of Mercy,
+                    AI Stability Engine,
+                    Electrifying Reload,
+                }
+            }
+            M1000 Classic,
+            {
+                Overclock:
+                {
+                    Hoverclock,
+                    Minimal Clips,
+                    Active Stability System,
+                    Hipster,
+                    Electrocuting Focus Shots,
+                    Supercooling Chamber,
+                }
+            }
+        }
+        Secondary:
+        {
+            Jury-Rigged Boomstick,
+            {
+                Overclock:
+                {
+                    Compact Shells,
+                    Double Barrel,
+                    Special Powder,
+                    Stuffed Shells,
+                    Shaped Shells,
+                    Jumbo Shells,
+                }        
+            }
+            Zhukov NUK17,
+            {
+                Overclock:
+                {
+                    Minimal Magazines,
+                    Custom Casings,
+                    Cryo Minelets,
+                    Embedded Detonators,
+                    Gas Recycling,
+                }
+            }
+        }
+        Throwable:
+        {
+            Inhibitor-Field Generator,
+            Cryo Grenade,
+            Pheromone Canister,
+        }
+    }
+}
