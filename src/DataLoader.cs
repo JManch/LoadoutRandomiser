@@ -57,19 +57,6 @@ namespace LoadoutRandomiser
             Console.WriteLine("> Loading finished. Type \"help\" to get a list of commands");
         }
 
-        public void PrintData() {
-            foreach (var pair in loadoutData) {
-                foreach (Node n in pair.Value.nodes) {
-                    if(n is Category) {
-                        Console.WriteLine("Found category " + n.name + " with options:");
-                        foreach (Option o in ((Category)n).options) {
-                            Console.WriteLine("    " + o.name);
-                        }
-                    }
-                }
-            } 
-        }
-
         private LoadoutData Deserialize(string path) {
 
             LoadoutData loadoutData = new LoadoutData();
@@ -98,6 +85,10 @@ namespace LoadoutRandomiser
                             continue;
                         case ',':
                             loadoutData.AddOption(buffer);
+                            buffer = "";
+                            continue;
+                        case '*':
+                            loadoutData.SetRandomCount(buffer);
                             buffer = "";
                             continue;
                     }
