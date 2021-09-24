@@ -9,10 +9,9 @@ namespace LoadoutRandomiser
         private Node current;
         public int categoryCount {get; private set;}
         public int optionCount {get; private set;}
-        public List<Node> nodes {get; private set;}
+        private Node latestNode;
 
         public LoadoutData() {
-            nodes = new List<Node>();
             current = null;
         }
 
@@ -20,16 +19,15 @@ namespace LoadoutRandomiser
             
             Category newCategory;
             if (current != null && current is Option) {
-
                 newCategory = new Category(current, name);
                 current.AddChild(newCategory);
-                nodes.Add(newCategory);
+                latestNode = newCategory;
                 ++categoryCount;
             }
             else if (current == null){
                 newCategory = new Category(null, name);
                 root = newCategory;
-                nodes.Add(newCategory);
+                latestNode = newCategory;
                 ++categoryCount;
             }
             else {
@@ -43,7 +41,7 @@ namespace LoadoutRandomiser
             if (current != null && current is Category) {
                 Option newOption = new Option(current, name);
                 current.AddChild(newOption);
-                nodes.Add(newOption);
+                latestNode = newOption;
                 ++optionCount;
             }
             else if(current == null) {
@@ -59,10 +57,24 @@ namespace LoadoutRandomiser
         }
         public void MoveDownNode() {
             if(current == null) {
-                current = nodes[0];
+                current = latestNode;
             }
             else {
                 current = current.children[current.children.Count - 1];
+            }
+        }
+
+        public void SetRandomCount(string randomCount) {
+            if(Int32.TryParse(randomCount, out int rCount)) {
+                if (latestNode is Category) {
+                    ((Category)latestNode).SetRandomCount(rCount);
+                }
+                else {
+                    Console.WriteLine("> Warning you attempted to define random count for option {0}. Random count can only be used on categories.", latestNode.name);
+                }
+            }
+            else {
+                Console.WriteLine("> Warning random count failed to set as {0} is not an integer.", randomCount);
             }
         }
 
@@ -76,11 +88,44 @@ namespace LoadoutRandomiser
         private List<Tuple<string, string>> GenerateRandomLoadoutR(Node node, List<Tuple<string, string>> randomLoadout, Random random) {
 
             if (node is Category) {
+                
                 // Choose a random option
                 List<Option> options = ((Category)node).options;
-                int randomIndex = random.Next(options.Count);
-                randomLoadout.Add(new Tuple<string, string>(node.name, options[randomIndex].name));
-                randomLoadout = GenerateRandomLoadoutR(options[randomIndex], randomLoadout, random);
+
+                // If it's not possible to get unique options then just select 1 as normal
+                if (((Category)node).GetRandomCount() == 1 || (((Category)node).GetRandomCount() > options.Count)) {
+                    
+                    int randomIndex = random.Next(options.Count);
+                    randomLoadout.Add(new Tuple<string, string>(node.name, options[randomIndex].name));
+                    randomLoadout = GenerateRandomLoadoutR(options[randomIndex], randomLoadout, random);
+                }
+                else {
+                    Option[] randomOptions = new Option[((Category)node).GetRandomCount()];
+
+                    int randomIndex;
+
+                    for (int i = 0; i < randomOptions.Length; i++) {
+                        do{
+                            randomIndex = random.Next(options.Count);
+                            
+                            if (!randomOptions.Contains(options[randomIndex])) {
+                                randomOptions[i] = options[randomIndex];
+                            }
+                        }while(randomOptions[i] == null);
+                    }
+
+                    // Now concat arr into a string
+                    string result = "";
+                    foreach(Option o in randomOptions) {
+                        result = result + o.name + ", ";
+                    }
+                    result = result.Remove(result.Length - 1, 1);
+                    randomLoadout.Add(new Tuple<string, string>(node.name, result));
+
+                    foreach(Option o in randomOptions) {
+                        randomLoadout = GenerateRandomLoadoutR(o, randomLoadout, random);
+                    }
+                }
             }
             else {
                 foreach (Node child in node.children) {
