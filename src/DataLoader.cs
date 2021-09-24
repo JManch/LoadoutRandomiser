@@ -13,7 +13,7 @@ namespace LoadoutRandomiser
         public static Dictionary<string, LoadoutData> loadoutData = new Dictionary<string, LoadoutData>();
 
         public DataLoader() {
-            this.dataPath = Directory.GetCurrentDirectory() + @"\LoadoutData";
+            this.dataPath = Path.Combine(Directory.GetCurrentDirectory(), "LoadoutData");
         }
 
         public void LoadData() {
