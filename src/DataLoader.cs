@@ -72,8 +72,6 @@ namespace LoadoutRandomiser
 
         private LoadoutData Deserialize(string path) {
 
-            StreamReader sr = new StreamReader(path);
-
             LoadoutData loadoutData = new LoadoutData();
             
             //Regex alphabet = new Regex(@"[a-zA-Z 0-9]");
@@ -81,36 +79,38 @@ namespace LoadoutRandomiser
             char c;
             string buffer = "";
 
-            do{
-                c = (char)sr.Read();
-                
-                switch (c){
-                    case ':':
-                        loadoutData.AddCategory(buffer);
-                        buffer = "";
-                        continue;
-                    case '}':
-                        loadoutData.MoveUpNode();
-                        buffer = "";
-                        continue;
-                    case '{':
-                        loadoutData.MoveDownNode();
-                        buffer = "";
-                        continue;
-                    case ',':
-                        loadoutData.AddOption(buffer);
-                        buffer = "";
-                        continue;
-                }
+            using (StreamReader sr = new StreamReader(path)) {
+                do{
+                    c = (char)sr.Read();
+                    
+                    switch (c){
+                        case ':':
+                            loadoutData.AddCategory(buffer);
+                            buffer = "";
+                            continue;
+                        case '}':
+                            loadoutData.MoveUpNode();
+                            buffer = "";
+                            continue;
+                        case '{':
+                            loadoutData.MoveDownNode();
+                            buffer = "";
+                            continue;
+                        case ',':
+                            loadoutData.AddOption(buffer);
+                            buffer = "";
+                            continue;
+                    }
 
-                if(c == '\r' || c == '\n' || (buffer == "" && c == ' ')) {
-                    continue;
+                    if(c == '\r' || c == '\n' || (buffer == "" && c == ' ')) {
+                        continue;
+                    }
+                    else {
+                        buffer = buffer + c;
+                    }
                 }
-                else {
-                    buffer = buffer + c;
-                }
+                while(!sr.EndOfStream);
             }
-            while(!sr.EndOfStream);
 
             return loadoutData;
         }
