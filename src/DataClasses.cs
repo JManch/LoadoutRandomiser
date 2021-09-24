@@ -1,8 +1,10 @@
+using System;
 using System.Collections.Generic;
 
 namespace LoadoutRandomiser
 {
-    public abstract class Node {
+    public abstract class Node 
+    {
         public string name {get; private set;}
         public Node parent {get; protected set;}
         public List<Node> children;
@@ -21,6 +23,7 @@ namespace LoadoutRandomiser
     public class Category : Node
     {
         public List<Option> options {get; private set;}
+        private int randomCount = 1;
         public Category(Node parent, string name) : base(parent, name)
         {
             options = new List<Option>();
@@ -32,6 +35,14 @@ namespace LoadoutRandomiser
             if (child is Option) {
                 options.Add((Option)child);
             }
+        }
+
+        public void SetRandomCount(int randomCount) {
+            this.randomCount = randomCount;
+        }
+
+        public int GetRandomCount() {
+            return randomCount;
         }
     }
 
