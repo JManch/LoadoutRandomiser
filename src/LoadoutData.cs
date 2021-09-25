@@ -5,7 +5,7 @@ using System.Linq;
 namespace LoadoutRandomiser 
 {
     public class LoadoutData {
-        private Node root;
+        private List<Node> roots;
         private Node current;
         public int categoryCount {get; private set;}
         public int optionCount {get; private set;}
@@ -13,6 +13,7 @@ namespace LoadoutRandomiser
 
         public LoadoutData() {
             current = null;
+            roots = new List<Node>();
         }
 
         public void AddCategory(string name) {
@@ -26,7 +27,7 @@ namespace LoadoutRandomiser
             }
             else if (current == null){
                 newCategory = new Category(null, name);
-                root = newCategory;
+                roots.Add(newCategory);
                 latestNode = newCategory;
                 ++categoryCount;
             }
@@ -79,8 +80,14 @@ namespace LoadoutRandomiser
         }
 
         public void GenerateRandomLoadout() {
-            List<Tuple<string, string>> randomLoadout = GenerateRandomLoadoutR(root, new List<Tuple<string, string>>(), new Random());
-            foreach (var t in randomLoadout) {
+
+            List<Tuple<string, string>> generatedLoadout = new List<Tuple<string, string>>();
+            
+            foreach(Node root in roots) {
+                generatedLoadout.AddRange(GenerateRandomLoadoutR(root, new List<Tuple<string, string>>(), new Random()));
+            }   
+            
+            foreach (var t in generatedLoadout) {
                 Console.WriteLine(t.Item1 + ":  " + t.Item2);
             }
         }
