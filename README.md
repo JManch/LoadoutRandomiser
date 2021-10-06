@@ -16,6 +16,7 @@ Gadget 2:  Lunge Mine
 **Currently Supported Games**
 
 - Battlefield V
+- Battlefield 2042
 - Deep Rock Galactic
 
 ## Adding a Game
