@@ -93,7 +93,7 @@ namespace LoadoutRandomiser
                             continue;
                     }
 
-                    if(c == '\r' || c == '\n' || (buffer == "" && c == ' ')) {
+                    if(c == '\r' || c == '\n' || (buffer == "" && (c == ' ' || c == '\t'))) {
                         continue;
                     }
                     else {
