@@ -1,0 +1,38 @@
+Specialist:
+{
+    Assault,
+	Engineer,
+	Recon,
+	Support,
+}
+Primary:
+{
+	PBX-45,
+	K30,
+	M5A3,
+	AK-24,
+	LCMG,
+	DM7,
+	SWS-10,
+	MCS-880,
+}
+Secondary:
+{
+	G57,
+	M44,
+}
+Throwable:
+{
+	Frag Grenade,
+	Prox Sensor,
+}
+Gadget:
+{
+	Medic Crate,
+	Ammo Crate,
+	C5 Explosive,
+	Recoilless M5,
+	FXM-33 AA Missile,
+	Repair Tool,
+	IBA Armor Plate,
+}
