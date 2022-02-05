@@ -18,6 +18,8 @@ Gadget 2:  Lunge Mine
 - Battlefield V
 - Battlefield 2042
 - Deep Rock Galactic
+- BeamNG
+- Vampire Survivors
 
 ## Adding a Game
 
