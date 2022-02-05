@@ -84,7 +84,7 @@ namespace LoadoutRandomiser
             List<Tuple<string, string>> generatedLoadout = new List<Tuple<string, string>>();
             
             foreach(Node root in roots) {
-                generatedLoadout.AddRange(GenerateRandomLoadoutR(root, new List<Tuple<string, string>>(), new Random()));
+                generatedLoadout.AddRange(GenerateRandomLoadoutR(root, new List<Tuple<string, string>>()));
             }   
             
             foreach (var t in generatedLoadout) {
@@ -92,7 +92,7 @@ namespace LoadoutRandomiser
             }
         }
 
-        private List<Tuple<string, string>> GenerateRandomLoadoutR(Node node, List<Tuple<string, string>> randomLoadout, Random random) {
+        private List<Tuple<string, string>> GenerateRandomLoadoutR(Node node, List<Tuple<string, string>> randomLoadout) {
 
             if (node is Category) {
                 
@@ -102,9 +102,9 @@ namespace LoadoutRandomiser
                 // If it's not possible to get unique options then just select 1 as normal
                 if (((Category)node).GetRandomCount() == 1 || (((Category)node).GetRandomCount() > options.Count)) {
                     
-                    int randomIndex = random.Next(options.Count);
+                    int randomIndex = Program.random.Next(options.Count);
                     randomLoadout.Add(new Tuple<string, string>(node.name, options[randomIndex].name));
-                    randomLoadout = GenerateRandomLoadoutR(options[randomIndex], randomLoadout, random);
+                    randomLoadout = GenerateRandomLoadoutR(options[randomIndex], randomLoadout);
                 }
                 else {
                     Option[] randomOptions = new Option[((Category)node).GetRandomCount()];
@@ -113,7 +113,7 @@ namespace LoadoutRandomiser
 
                     for (int i = 0; i < randomOptions.Length; i++) {
                         do{
-                            randomIndex = random.Next(options.Count);
+                            randomIndex = Program.random.Next(options.Count);
                             
                             if (!randomOptions.Contains(options[randomIndex])) {
                                 randomOptions[i] = options[randomIndex];
@@ -130,13 +130,13 @@ namespace LoadoutRandomiser
                     randomLoadout.Add(new Tuple<string, string>(node.name, result));
 
                     foreach(Option o in randomOptions) {
-                        randomLoadout = GenerateRandomLoadoutR(o, randomLoadout, random);
+                        randomLoadout = GenerateRandomLoadoutR(o, randomLoadout);
                     }
                 }
             }
             else {
                 foreach (Node child in node.children) {
-                    randomLoadout = GenerateRandomLoadoutR(child, randomLoadout, random);
+                    randomLoadout = GenerateRandomLoadoutR(child, randomLoadout);
                 }
             }
 

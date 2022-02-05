@@ -7,17 +7,13 @@ using System.Threading;
 
 namespace LoadoutRandomiser 
 {
-    public class DataLoader
+    public static class DataLoader
     {
-        private string dataPath;
+        private static string dataPath = Path.Combine(Directory.GetCurrentDirectory(), "LoadoutData");
         public static Dictionary<string, LoadoutData> loadoutData = new Dictionary<string, LoadoutData>();
+        public static Dictionary<string, string> loadoutNames = new Dictionary<string, string>();
 
-        public DataLoader() {
-            this.dataPath = Path.Combine(Directory.GetCurrentDirectory(), "LoadoutData");
-        }
-
-        public void LoadData() {
-            
+        public static void LoadData() {
             loadoutData.Clear();
 
             Console.WriteLine("> Searching " + dataPath + " for loadouts");
@@ -46,22 +42,22 @@ namespace LoadoutRandomiser
 
             foreach (string loadoutPath in loadoutPaths) {
                 string loadoutName = Path.GetFileNameWithoutExtension(loadoutPath);
-                Thread.Sleep(500);
+                loadoutNames.Add(loadoutName.ToLower(), loadoutName);
+                // Thread.Sleep(500);
                 sw.Start();
                 loadoutData.Add(loadoutName.ToLower(), Deserialize(loadoutPath));
                 sw.Stop();
                 Console.WriteLine("> " + loadoutName + " loaded. Found {0} categories and {1} options in {2} seconds.", loadoutData[loadoutName.ToLower()].categoryCount, loadoutData[loadoutName.ToLower()].optionCount, sw.Elapsed);
                 sw.Reset();
-                Thread.Sleep(500);
+                // Thread.Sleep(500);
             }
             Console.WriteLine("> Loading finished. Type \"help\" to get a list of commands");
         }
 
-        private LoadoutData Deserialize(string path) {
+        private static LoadoutData Deserialize(string path) {
 
             LoadoutData loadoutData = new LoadoutData();
             
-            //Regex alphabet = new Regex(@"[a-zA-Z 0-9]");
             Regex syntax = new Regex(@"[:{},]");
             char c;
             string buffer = "";
@@ -105,9 +101,26 @@ namespace LoadoutRandomiser
 
             return loadoutData;
         }
+        
+        // This implementation is horrible
+        private static int lev(string a, string b) {
 
-        private void OnDeserializeError(string error) {
-            Console.WriteLine("Error deserializing: " + error);
+            if (a.Length == 0) {
+                return b.Length;
+            }
+            else if (b.Length == 0) {
+                return a.Length;
+            }
+            else if (a[0] == b[0]){
+                return lev(a.Substring(1), b.Substring(1));
+            }
+
+            return 1 + Math.Min(lev(a.Substring(1), b), Math.Min(lev(a, b.Substring(1)), lev(a.Substring(1), b.Substring(1))));
+        }
+
+        public static int levenshteinDistance(string a, string b){
+            
+            return lev(a, b);
         }
     }
 }
