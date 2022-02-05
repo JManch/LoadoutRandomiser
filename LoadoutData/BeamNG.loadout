@@ -1,0 +1,881 @@
+Brand:
+{
+    Ibishu,
+    {
+        Model:
+        {
+            200BX,
+            {
+                Config:
+                {
+                    The Malodorous (M),
+                    Base (A),
+                    Base (M),
+                    Type-L (A),
+                    Type-L (M),
+                    Type-LS (A),
+                    Type-LS (M),
+                    Special Pursuit Unit (A),
+                    Street Tuned (M),
+                    Drag (A),
+                    Drift (M),
+                    Track (M),
+                    Demon (M),
+                }
+            }
+            Covet,
+            {
+                Config:
+                {
+                    The Pointless (M),
+                    The Skidplate (M),
+                    1.5 DX (M),
+                    1.5 DXi (A),
+                    Student Driver (M),
+                    1.5 DXi (M),
+                    1.5 LXi (A),
+                    41.5 LXi (M),
+                    1.5 ZXi (M),
+                    1.5 ZXi Special Edition (M),
+                    Street Tuned (M),
+                    2.0 GTz (M),
+                    2.0 GTz Special Edition (M),
+                    Track (M),
+                    Rally - Gravel (M),
+                    Drag (Sequential),
+                }
+            }
+            Miramar,
+            {
+                Config:
+                {
+                    Base Mira-Matic (A),
+                    Base (M),
+                    Luxe Mira-Matic (A),
+                    Luxe (M),
+                    GTz (M),
+                    Street Tuned (M),
+                    Drift (M),
+                    Track (M),
+                }
+            }
+            Pessima 1988-1991,
+            {
+                Config:
+                {
+                    The Pessimistic (M),
+                    1.8 DX (A),
+                    1.8 DX (M),
+                    2.0 LX (A),
+                    2.0 LX (M),
+                    1.8 HX (M),
+                    2.0 ZX (M),
+                    2.0 ZX AWS (M),
+                    2.0 GTz (M),
+                    Street Tuned (M),
+                    Drift (M),
+                    Track (M),
+                    Rally - Gravel (M),
+                    Hillclimb - Asphalt (Sequential),
+                }
+            }
+            Pessima 1996-2000,
+            {
+                Config:
+                {
+                    The Unpalatable (M),
+                    1.8 DX TurboBurger (A),
+                    1.8 DX (A),
+                    1.8 DX (M),
+                    2.0 LX (A),
+                    2.0 LX (M),
+                    Taxi (A),
+                    Police (A),
+                    2.0 LX Sport (A),
+                    2.0 LX Sport (M),
+                    2.7 LX V6 (A),
+                    2.7 LX V6 (M),
+                    2.7 LX V6 Sport (A),
+                    2.7 LX V6 Sport (M),
+                    Stanced (A),
+                    2.7 LX V6 Sport GTz (M),
+                    Detective Special (A),
+                    Street Tuned (M),
+                    Rally (M),
+                    Drag (Sequential),
+                    Touring Car (Sequential),
+                }
+            }
+            Pigeon,
+            {
+                Config:
+                {
+                    Base (M),
+                    The Stabilizer (M),
+                    Street Cleaner (M),
+                    Van (M),
+                    Plus (M),
+                    Van Plus (M),
+                    Cool (M),
+                    Rock Dove (M),
+                    Drag (M),
+                    Race (M),
+                }
+            }
+            Wigeon,
+            {
+                Config:
+                {
+                    Base (M),
+                    Sprint (M),
+                    4 LX (M),
+                    LX Sprint (M),
+                    The Pond Skipper (M),
+                    The Darter (M),
+                    The Mantis (M),
+                }
+            }
+            Hopper,
+            {
+                Config:
+                {
+                    XT-4 (A),
+                    XT-4 (M),
+                    XT-6 (A),
+                    XT-6 (M),
+                    Carabinieri (M),
+                    LXT-4 (A),
+                    LXT-4 (M),
+                    LXT6 (A),
+                    LXT-6 (M),
+                    Sheriff (M),
+                    Park Ranger (M),
+                    ZXT-6 (A),
+                    ZXT-6 (M),
+                    Classic (M),
+                    Dune Edition (A),
+                    Dune Edition (M),
+                    Sport Special (A),
+                    Sport Special (M),
+                    Trackday (M),
+                    Off-Road (M),
+                    Drag (A),
+                    Custom (A),
+                    Crawler (A),
+                }
+            }
+        }
+    }
+    Cherrier,
+    {
+        Model:
+        {
+            FCV,
+            {
+                Config:
+                {
+                    Vivace 110 (M),
+                    Vivace 110d (M),
+                    Tograc 110 (M),
+                    Tograc 110d (M),
+                    Vivace 160 (M),
+                    Vivace 160 (DCT),
+                    Vivace 150d (M),
+                    Vivace 150d (DCT),
+                    Vivace Polizia (M),
+                    Tograc 160Q (M),
+                    Tograc 160Q (DCT),
+                    Tograc 150dQ (M),
+                    Tograc 150dQ (DCT),
+                    Vivace 190Sd (DCT),
+                    Vivace 230S (DCT),
+                    Tograc 150dQX (DCT),
+                    Tograc Polizia (M),
+                    Tograc 190dq (DCT),
+                    Vivace E,
+                    Vivace S 270 (M),
+                    Vivace S 270 (DCT),
+                    Vivace S Gendarmerie (DCT),
+                    Vivace S 310 Arsenic (M),
+                    Vivace S 310 Arsenic (DCT),
+                    Tograc qE,
+                    Tograc Amateur Rally-Gravel (DCT),
+                    Vivace S 350Q (M),
+                    Vivace S 350Q (DCT),
+                    Vivace S 310 Arsenic Trackday (M),
+                    Vivace S 410Q Arsenic (M),
+                    Vivace S 410Q Arsenic (DCT),
+                    Vivace Race (Sequential),
+                    Vivace Hillclimb (Sequential),
+                    Vivace Rally - Asphalt (Sequential),
+                    Vivace Rally - Gravel (Sequential),
+                }
+            }
+        }
+    }
+    ETK,
+    {
+        Model:
+        {
+            800 Series,
+            {
+                Config:
+                {
+                    854t (A),
+                    854t (M),
+                    854tc (A),
+                    854tc (M),
+                    854td (A),
+                    854td (M),
+                    854t Polizei (M),
+                    856t (A),
+                    856t (M),
+                    856tc (A),
+                    856tc (M),
+                    854tx (A),
+                    854tx (M),
+                    856td (A),
+                    856td (M),
+                    856tx (A),
+                    856tx (M),
+                    856tx Driving Experience (A),
+                    Drift (M),
+                    856 ttSport (A),
+                    856 ttSport (M),
+                    856 ttSport+ (A),
+                    856 ttSport+ (M),
+                }
+            }
+            I-Series,
+            {
+                Config:
+                {
+                    2400 (A),
+                    2400 (M),
+                    2400 (Facelift) (A),
+                    2400 (Facelift) (M),
+                    2400i (A),
+                    2400i (M),
+                    2400i (Facelift) (A),
+                    2400i (Facelift) (M),
+                    2400ix (A),
+                    2400ix (M),
+                    2400ix (Facelift) (A),
+                    2400ix (Facelift) (M),
+                    3000i (A),
+                    3000i (M),
+                    3000i (Facelift) (A),
+                    3000i (Facelift) (M),
+                    3000ix (A),
+                    3000ix (M),
+                    3000ix (Facelift) (A),
+                    3000ix (Facelift) (M),
+                    2400ti TTSport (M),
+                    2400ti TTSport (Facelift) (M),
+                    2400tix TTSport (M),
+                    2400tix TTSport (Facelift) (M),
+                    Street Tuned (M),
+                    Drift (M),
+                    Knallhart (M),
+                    2400ti TTSport Evolution (M),
+                    2400tix TTSport Evolution (M),
+                    Track (M),
+                    Rally - Gravel (M),
+                }
+            }
+            K-Series,
+            {
+                Config:
+                {
+                    Kc4t (A),
+                    Kc4t (M),
+                    Kc6 (A),
+                    Kc6 (M),
+                    Kc6d (A),
+                    Kc6d (M),
+                    Kc6t (A),
+                    Kc6t (M),
+                    Kc6dx Driving Experience (M),
+                    Kc6tx (A),
+                    Kc6tx (M),
+                    Drift (M),
+                    Highway Police (A),
+                    Trackday (A),
+                }
+            }
+        }
+    }
+    Wentward,
+    {
+        Model:
+        {
+            DT40L,
+            {
+                Config:
+                {
+                    Base,
+                    City,
+                    Highway,
+                    Safari,
+                    Zebra,
+                    Hero,
+                    Ram Bus,
+                }
+            }
+        }
+    }
+    Hirochi,
+    {
+        Model:
+        {
+            SBR4,
+            {
+                Config:
+                {
+                    RWD Base (M),
+                    RWD Base (DCT),
+                    RWD S (M),
+                    RWD S (DCT),
+                    AWD S (M),
+                    AWD S (DCT),
+                    RWD TT S (M),
+                    RWD TT S (DCT),
+                    AWD TT S (M),
+                    AWD TT S (DCT),
+                    eSBR 300,
+                    AWD TT S2 (M),
+                    AWD TT S2 (DCT),
+                    eSBR 500,
+                    eSBR 800,
+                    Hillclimb - Asphalt (DCT),
+                    Hillclimb - Asphalt (Sequential),
+                }
+            }
+            Sunburst,
+            {
+                Config:
+                {
+                    1.8 (M),
+                    1.8 (CVT),
+                    2.0 Sport (M),
+                    2.0 Sport (DCT),
+                    2.0 Sport S AWD (M),
+                    2.0 Sport S AWD (DCT),
+                    Firwood Police Package (DCT),
+                    Police Package (DCT),
+                    2.0 Sport RS AWD (M),
+                    2.0 Sport RS AWD (DCT),
+                    Drift Missile (M),
+                    Street Tuned (M),
+                    Gendarmerie (DCT),
+                    Firwood Police RS (DCT),
+                    Police Interceptor (DCT),
+                    Off-Road (DCT),
+                    Track (M),
+                    Track (DCT),
+                    Rally - Gravel (Sequential),
+                    Hillclimb - Asphalt (Sequential),
+                }
+            }
+        }
+    }
+    Soliad,
+    {
+        Model:
+        {
+            Wendover,
+            {
+                Config:
+                {
+                    The Unpunctual (M),
+                    3300 (A),
+                    3300 (Facelift) (A),
+                    S 3800 (A),
+                    S 3800 (Facelift) (A),
+                    SE 3800 (A),
+                    SE 3800 (Facelift) (A),
+                    SE 4400 V8 (A),
+                    SE 4400 V8 (Facelift) (A),
+                    Sport S 3800 (A),
+                    Sport S 3800 (Facelift) (A),
+                    Sport SE 3800 (A),
+                    Sport SE 3800 (M),
+                    Sport SE 3800 (Facelift) (A),
+                    Sport SE 3800 (Facelift) (M),
+                    Sport SE 4400 V8 (A),
+                    Sport SE 4400 V8 (Facelift) (A),
+                    Police Interceptor (A),
+                    Street Tuned (M),
+                    Safety Car (M),
+                    Rally (M),
+                    Race (M),
+                    Hillclimb (Sequential),
+                    Fink Appliances Ten Thousand (M),
+                }
+            }
+        }
+    }
+    Civetta,
+    {
+        Model:
+        {
+            Bolide,
+            {
+                Config:
+                {
+                    350 (M),
+                    350 - USDM (M),
+                    350 Targa (M),
+                    350 Targa - USDM (M),
+                    390 GT (M),
+                    390 GT - USDM (M),
+                    390 GT Targa (M),
+                    390 GT Targa - USDM (M),
+                    320 GTT Corse (M),
+                    320 GTT Corse - USDM (M),
+                    320 GTT Corse Targa (M),
+                    320 GTT Corse Targa - USDM (M),
+                    350 Polizia (M),
+                    350 Club Racer (M),
+                    Notte (M),
+                    Top Speed (M),
+                    390 GT Strada (M),
+                    390 GT Group 4 - Gravel (M),
+                    390 GT Group 4 - Asphalt (M),
+                    320 GTR Group 5 (M),
+                }
+            }
+        }
+    }
+    Autobello,
+    {
+        Model:
+        {
+            Piccolina,
+            {
+                Config:
+                {
+                    110 A (M),
+                    110 B (M),
+                    110 (M),
+                    130 (M),
+                    Tricolore (M),
+                    130 A (M),
+                    130 B (M),
+                    Carabinieri (M),
+                    Street Machine (M),
+                    150 Corse (M),
+                    Baja (M),
+                    150 Corse Track (M),
+                    150 Corse Rally - Gravel (M),
+                }
+            }
+        }
+    }
+    Burnside,
+    {
+        Model:
+        {
+            Special,
+            {
+                Config:
+                {
+                    V8 Dual-Matic (A),
+                    V8 (M),
+                    Taxi (M),
+                    V8 Super-Matic (A),
+                    Police (A),
+                    Lead Sled (M),
+                    Custom (M),
+                    Drag (A),
+                }
+            }
+        }
+    }
+    Bruckell,
+    {
+        Model:
+        {
+            LeGran,
+            {
+                Config:
+                {
+                    The Atrocious (M),
+                    The Objectionable (M),
+                    Regulier (M),
+                    Regulier (Facelift) (M),
+                    Regulier Wagon (Facelift) (M),
+                    S (A),
+                    S Wagon (A),
+                    Taxi Wagon (A),
+                    Police Package (A),
+                    SE (A),
+                    SE Wagon (Facelift) (A),
+                    S V6 (A),
+                    S V6 (Facelift) (A),
+                    SE V6 (A),
+                    SE V6 Wagon (Facelift) (A),
+                    SE V6 Towing Package (A),
+                    Sport S (A),
+                    Sport S (M),
+                    Luxe V6 (A),
+                    Luxe Grandiose V6 (A),
+                    Sport S V6 (A),
+                    Sport S V6 (M),
+                    Sport SE (Facelift) (A),
+                    Sport SE (Facelift) (M),
+                    Sport SE V6 AWD (Facelift) (A),
+                    Sport SE V6 AWD (Facelift) (M),
+                    Detective Special (Facelift) (M),
+                    Fire Chief (Facelift) (A),
+                    Custom (M),
+                    SE Campagne (Facelift) (A),
+                    Rally (M),
+                    Race (M),
+                }
+            }
+            Moonhawk,
+            {
+                Config:
+                {
+                    The Terrible (M),
+                    I6 (A),
+                    I6 (M),
+                    I6 (Facelift) (A),
+                    I6 (Facelift) (M),
+                    V8 (A),
+                    V8 (M),
+                    V8 (Facelift) (A),
+                    V8 (Facelift) (M),
+                    V8 Sport (A),
+                    V8 Sport (M),
+                    Detective Special (A),
+                    V8 Sport (A),
+                    V8 Sport (M),
+                    V8 Special (M),
+                    Donk (A),
+                    Elite Custom (M),
+                    Drag (A),
+                    Track (M),
+                }
+            }
+            Bastion,
+            {
+                Config:
+                {
+                    SE 3.5 (A),
+                    SE 3.5 AWD (A),
+                    Taxi (A),
+                    Luxe 3.5 AWD (A),
+                    Luxe 5.7 (A),
+                    Sport 5.7 (A),
+                    Sport 5.7 (M),
+                    Off-Road (A),
+                    Luxe 5.7 AWD (A),
+                    Police (Unmarked) 5.7 AWD (A),
+                    Police 5.7 AWD (A),
+                    Sport GT 6.5 (A),
+                    Sport GT 6.5 (M),
+                    Street Tuned (A),
+                    Hotlap Special (M),
+                    Battlehawk (A),
+                    Battlehawk (M),
+                    Redtail (A),
+                    Drift (M),
+                    Drag (A),
+                }
+            }
+        }
+    }
+    Gavril,
+    {
+        Model:
+        {
+            Barstow,
+            {
+                Config:
+                {
+                    The Awful (M),
+                    232 I6 (A),
+                    232 I6 (M),
+                    291 V8 (A),
+                    291 V8 (M),
+                    353 V8 (A),
+                    353 V8 (M),
+                    423 V8 (A),
+                    423 V8 (M),
+                    291 V8 RoadSport Package (A),
+                    291 V8 RoadSport Package (M),
+                    353 V8 RoadSport Package (A),
+                    353 V8 RoadSport Package (M),
+                    423 V8 RoadSport Package (A),
+                    423 V8 RoadSport Package (M),
+                    Lancehead (M),
+                    Drift (M),
+                    Nightsnake (M),
+                    Kingsnake (M),
+                    TrackSport (M),
+                    Drag (A),
+                }
+            }
+            Bluebuck,
+            {
+                Config:
+                {
+                    The Horrible (M),
+                    232 I6 4-Door Sedan (A),
+                    232 I6 4-Door Sedan (M),
+                    232 I6 2-Door Sedan (A),
+                    232 I6 2-Door Sedan (M),
+                    Taxi (A),
+                    291 V8 4-Door Sedan (A),
+                    291 V8 4-Door Sedan (M),
+                    291 V8 2-Door Sedan (A),
+                    291 V8 2-Door Sedan (M),
+                    291 V8 Marshal 4-Door Sedan (A),
+                    291 V8 Marshal 4-Door Sedan (M),
+                    291 V8 Marshal 2-Door Sedan (A),
+                    291 V8 Marshal 2-Door Sedan (M),
+                    353 V8 Marshal 4-Door Sedan (A),
+                    353 V8 Marshal 4-Door Sedan (M),
+                    353 V8 Marshal 4-Door Hardtop (A),
+                    353 V8 Marshal 4-Door Hardtop (M),
+                    353 V8 Marshal 2-Door Sedan (A),
+                    353 V8 Marshal 2-Door Sedan (M),
+                    353 V8 Marshal 2-Door Hardtop (A),
+                    353 V8 Marshal 2-Door Hardtop (M),
+                    Police Package (A),
+                    423 V8 Marshal 4-Door Hardtop (A),
+                    423 V8 Marshal 4-Door Hardtop (M),
+                    423 V8 Sport 2-Door Hardtop (A),
+                    423 V8 Sport 2-Door Hardtop (M),
+                    Police Interceptor (A),
+                    423 V8 RoadSport 2-Door Hardtop (M),
+                    Drift (M),
+                    Lowrider (A),
+                    Custom (M),
+                    Drag (A),
+                    Stock Car (M),
+                }
+            }
+            Marshal,
+            {
+                Config:
+                {
+                    The Miserable (A),
+                    Fleet (A),
+                    V8 (A),
+                    Taxi (A),
+                    V8 Luxe (A),
+                    Police Package (Retired) (A),
+                    Police Package (Unmarked) (A),
+                    Police Package (A),
+                    Belasco City Police Department (A),
+                    Police Interceptor (A),
+                    V8 Sport (A),
+                    Street Tuned (A),
+                    Drift Missile (M),
+                    V8 RoadSport (A),
+                    Lowrider (A),
+                    Drag (A),
+                    Track (M),
+                }
+            }
+            D-Series,
+            {
+                Config:
+                {
+                    The Disappointment (A),
+                    D15 Fleet (M),
+                    D15 Fleet Long Bed (M),
+                    D15 Fleet Extended Cab (M),
+                    D15 Fleet Extended Cab (Facelift) (M),
+                    D15 Farmhand (M),
+                    D15 V8 (M),
+                    D15 V8 (A),
+                    D15 V8 Extended Cab (M),
+                    D15 V8 Extended Cab (A),
+                    D15 V8 Extended Cab (Facelift) (A),
+                    D15 V8 4WD (M),
+                    D15 V8 4WD (A),
+                    D15 V8 4WD (Facelift) (A),
+                    D15 V8 Extended Cab Long Bed (M),
+                    D15 V8 Extended Cab Long Bed (A),
+                    D15 V8 4WD Long Bed (M),
+                    D15 V8 4WD Long Bed (A),
+                    D10 Charro V8 4WD (A),
+                    D15 V8 Crew Cab (M),
+                    D15 V8 Crew Cab (A),
+                    D15 V8 4WD Extended Cab (M),
+                    D15 4WD Extended Cab (A),
+                    D15 V8 4WD Crew Cab (M),
+                    D15 4WD Crew Cab Short Bed (A),
+                    D15 Custom Classic (M),
+                    D25 Fleet Long Bed (A),
+                    D25 Fleet V8 Long Bed (M),
+                    D25 V8 4WD Long Bed (A),
+                    D25 V8 4WD Long Bed (M),
+                    D10 Park Ranger (A),
+                    D35 'Pig' (M),
+                    D25 V8 Extended Cab Long Bed (A),
+                    D25 V8 Extended Cab Dually (A),
+                    D25 V8 4WD Extended Cab Long Bed (M),
+                    D25 V8 4WD Extended Cab Long Bed (A),
+                    D25 V8 4WD Extended Cab Long Bed (Facelift) (A),
+                    D25 V8 Crew Cab Dually (A),
+                    D25 V8 Crew Cab (A),
+                    D25 V8 4WD Crew Cab (M),
+                    D25 V8 4WD Crew Cab (A),
+                    D25 V8 4WD Crew Cab (Facelift) (A),
+                    Kentarch D10 V8 4WD (A),
+                    D35 Fleet V8 Dually (M),
+                    D35 Fleet V8 Dually (A),
+                    D15 V8 RoadSport (M),
+                    D15 423 Sport (A),
+                    D10 Charro 423 Sport (A),
+                    D35 4WD Long Bed V8 (A),
+                    D35 4WD Extended Cab Long Bed V8 (A),
+                    D35 Diesel V8 Extended Cab Dually (M),
+                    D35 V8 Crew Cab Dually (A),
+                    D35 Chief Rancher Diesel (A),
+                    D35 Chief Rancher V8 Dually (A),
+                    Kentarch D30 V8 4WD (A),
+                    D45 Diesel Rollback Upfit (M),
+                    D45 Cargo Box Upfit (A),
+                    D25 Lifted (A),
+                    D15 Street Tuned (M),
+                    L-TRV Marauder (M),
+                    D35 'Beast' (A),
+                    D10 Zeta (A),
+                    D15 Drift (M),
+                    D15 Off-Road (M),
+                    D45 Ambulance (A),
+                    D15 Drag (A),
+                    D15 Track (M),
+                    D15 Crawler Crew Cab (A),
+                    D15 Pre-Runner (A),
+                    D15 Pre-Runner Extended Cab (A),
+                    D15 Rock Racer (A),
+                    D35 'SuperPig' (A),
+                }
+            }
+            H-Series,
+            {
+                Config:
+                {
+                    The Disastrous (A),
+                    H15 Vanster (A),
+                    H15 Base Passenger (A),
+                    H15 Vanster Long Wheelbase (A),
+                    H15 Passenger (A),
+                    H15 XT Passenger (A),
+                    H25 Vanster (A),
+                    H25 Vanster Long Wheelbase (A),
+                    H15 Police Transport Van (A),
+                    H25 Passenger (A),
+                    H25 4WD Vanster (A),
+                    H25 Vanster Work Package (A),
+                    H25 Passenger Long Wheelbase (A),
+                    H25 4WD Vanster Long Wheelbase (A),
+                    H25 XT Passenger (A),
+                    H25 4WD Passenger (A),
+                    H25 LXT Passenger (A),
+                    H25 4WD Passenger Long Wheelbase (A),
+                    H25 Vanster Police Package (A),
+                    H25 4WD XT Passenger (A),
+                    H25 4WD Passenger LXT (A),
+                    H35 Vanster (A),
+                    Drift (M),
+                    H35 Vanster Long Wheelbase (A),
+                    The Vantastic (M),
+                    H35 4WD Vanster (A),
+                    H35 4WD Vanster Long Wheelbase (A),
+                    H35 XT Passenger (A),
+                    H35 LXT Passenger (A),
+                    H35 4WD XT Passenger (A),
+                    H35 4WD LXT Passenger (A),
+                    H45 Cabster Chassis Cab (A),
+                    H45 Cabster Cargo Box Upfit (A),
+                    Street Tuned (M),
+                    H45 Diesel Cabster Rollback Upfit (A),
+                    H35 Vandal (M),
+                    H15 Vanster Off-Road (M),
+                    H45 Ambulance (A),
+                }
+            }
+            Roamer,
+            {
+                Config:
+                {
+                    The Horrendous (A),
+                    I6 (M),
+                    I6 4WD (M),
+                    V8 (A),
+                    V8 (M),
+                    V8 4WD (A),
+                    V8 4WD (M),
+                    V8 XT (A),
+                    V8 XT (M),
+                    V8 4WD XT (A),
+                    V8 4WD XT (M),
+                    Base (A) (Facelift),
+                    4WD Base (A) (Facelift),
+                    V8 LXT (A),
+                    V8 LXT (M),
+                    XT (A) (Facelift),
+                    4WD XT (A) (Facelift),
+                    V8 4WD LXT (A),
+                    V8 4WD LXT (M),
+                    LXT (A) (Facelift),
+                    4WD LXT (A) (Facelift),
+                    V8 RoadSport (A),
+                    V8 RoadSport (M),
+                    Diesel V8 LXT35 (A),
+                    Diesel V8 LXT35 (M),
+                    Belasco City Police Department (A),
+                    LXT35 Police Package (Unmarked) (A),
+                    V8 RoadSport LXT (A),
+                    V8 RoadSport LXT (M),
+                    Sheriff (A),
+                    Fire Chief (A),
+                    Street Tuned (M),
+                    Adventure (M),
+                    Off-Road (M),
+                    Drag (A),
+                }
+            }
+            T-Series,
+            {
+                Config:
+                {
+                    T65 Base (Short) (M),
+                    T65 Base (M),
+                    T65 Fifth Wheel Upfit (Short) (M),
+                    T65 Fifth Wheel Upfit (M),
+                    T75 Base (M),
+                    T75 Fifth Wheel Upfit (M),
+                    T65 Flatbed Upfit (M),
+                    T65 Cargo Box Upfit (M),
+                    T65 Car Hauler Upfit (M),
+                    T75 Long Haul (M),
+                    T75 Dump Bed Upfit (M),
+                    T75 Long Haul Special (M),
+                    T75 Cement Mixer Upfit (M),
+                    T75 Patriot Special (M),
+                    T65 Ram Plow (A),
+                    T75 Destroyer (A),
+                }
+            }
+        }
+    }
+}
+Trailer:
+{
+    Box Utility Trailer,
+    Dry Van Trailer,
+    Flatbed Trailer,
+    Large Box Utility Trailer,
+    Small Flatbed Trailer,
+    Tanker Trailer,
+    Travel Trailer,
+}

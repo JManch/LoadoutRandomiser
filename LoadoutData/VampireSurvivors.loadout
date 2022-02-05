@@ -1,0 +1,24 @@
+Character:
+{
+    Antonio,
+    Imelda,
+    Pasqualina,
+    Gennaro,
+    Arca,
+    Porta,
+    Poe,
+    Clerici,
+    Mortaccio,
+}
+Stage:
+{
+    Mad Forest,
+    Inlaid Library,
+    {
+        Hyper:
+        {
+            Enabled,
+            Disabled,
+        }
+    }
+}
