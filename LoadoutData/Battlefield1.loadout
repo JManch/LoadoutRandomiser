@@ -1,0 +1,239 @@
+Class:
+{
+    Assault,
+    {
+        Primary:
+        {
+            M97 Trench Gun Backbored,
+            MP 18 Trench,
+            MP 18 Optical,
+            Automatico M1918,
+            Hellfighter Trench Shotgun,
+            Sjogren Inertial Slug,
+            Ribeyrolles 1918 Optical,
+            Maschinenpistole M1912/P.16 Experimental,
+            M1917 Patrol Carbine,
+        }
+        Sidearm:
+        {
+            M1911,
+            Hellfighter M1911,
+            Red Baron's P08,
+            M1911 Silencer,
+        }
+        Gadgets: 2*
+        {
+            Dynamite,
+            Anti-Tank Grenade,
+            Anti-Tank Mine,
+            Rocket Gun, {Rocket Gun Type:{AT,AA,}}
+        }
+        Grenade:
+        {
+            Frag Grenade,
+            Gas Grenade,
+            Impact Grenade,
+            Incendiary Grenade,
+            Mini Grenade,
+            Smoke Grenade,
+            Light Anti-Tank Grenade,
+            Improvised Grenade,
+        }
+        Melee:
+        {
+            Combat Knife,
+            Hellfighter Bolo Knife,
+            Jambiya Knife,
+            Club,
+            Shovel,
+            Cossack Dagger,
+            Ottoman Flanged Mace,
+            Yatagan Sword,
+            Meat Cleaver,
+            Welsh Blade,
+        }
+        Specializations: 3*
+        {
+            Flak,
+            Cover,
+            Quick Regen,
+            Privateer,
+            Awareness,
+            Slink,
+        }
+    }
+    Medic,
+    {
+        Primary:
+        {
+            Cei-Rigotti Factory,
+            Selbstlader M1916 Factory,
+            Mondragon Storm,
+        }
+        Sidearm:
+        {
+            M1911,
+            Hellfighter M1911,
+            Red Baron's P08,
+            M1911 Silencer,
+        }
+        Gadgets: 2*
+        {
+            Medical Syringe,
+            Medical Crate,
+            Bandage Pouch,
+            Rifle Grenade, {Rifle Grenade Type:{FRG,SMK,HE,}}
+        }
+        Grenade:
+        {
+            Frag Grenade,
+            Gas Grenade,
+            Impact Grenade,
+            Incendiary Grenade,
+            Mini Grenade,
+            Smoke Grenade,
+            Light Anti-Tank Grenade,
+            Improvised Grenade,
+        }
+        Melee:
+        {
+            Combat Knife,
+            Hellfighter Bolo Knife,
+            Jambiya Knife,
+            Club,
+            Shovel,
+            Cossack Dagger,
+            Ottoman Flanged Mace,
+            Yatagan Sword,
+            Meat Cleaver,
+            Welsh Blade,
+        }
+        Specializations: 3*
+        {
+            Flak,
+            Cover,
+            Quick Regen,
+            Privateer,
+            Awareness,
+            Slink,
+        }
+    }
+    Support,
+    {
+        Primary:
+        {
+            Lewis Gun Low Weight,
+            Burton LMR Trench,
+        }
+        Sidearm:
+        {
+            M1911,
+            Hellfighter M1911,
+            Red Baron's P08,
+            M1911 Silencer,
+        }
+        Gadgets: 2*
+        {
+            Ammo Crate,
+            Ammo Pouch,
+            Mortar, {Mortar Type:{AIR,HE,}}
+            Repair Tool,
+            Limpet Charge,
+            Crossbow Launcher, {Crossbow Launcher Type:{FRG,HE,}}
+        }
+        Grenade:
+        {
+            Frag Grenade,
+            Gas Grenade,
+            Impact Grenade,
+            Incendiary Grenade,
+            Mini Grenade,
+            Smoke Grenade,
+            Light Anti-Tank Grenade,
+            Improvised Grenade,
+        }
+        Melee:
+        {
+            Combat Knife,
+            Hellfighter Bolo Knife,
+            Jambiya Knife,
+            Club,
+            Shovel,
+            Cossack Dagger,
+            Ottoman Flanged Mace,
+            Yatagan Sword,
+            Meat Cleaver,
+            Welsh Blade,
+        }
+        Specializations: 3*
+        {
+            Flak,
+            Cover,
+            Quick Regen,
+            Privateer,
+            Awareness,
+            Slink,
+        }
+    }
+    Scout,
+    {
+        Primary:
+        {
+            SMLE MKIII Marksman,
+            Lawrence of Arabia's SMLE,
+            Type 38 Arisaka Patrol,
+            Carcano M91 Patrol Carbine,
+            Ross MKIII Infantry,
+            M1917 Enfield Silenced,
+        }
+        Sidearm:
+        {
+            M1911,
+            Hellfighter M1911,
+            Red Baron's P08,
+            M1911 Silencer,
+        }
+        Gadgets: 2*
+        {
+            K Bullets,
+            Trench Periscope,
+            Sniper Shield,
+            Sniper Decoy,
+            Flare Gun, {Flare Gun Type:{Spot,}}
+            Tripwire Bomb, {Tripwide Bomb Type:{HE,GAS,INC,}}
+        }
+        Grenade:
+        {
+            Frag Grenade,
+            Gas Grenade,
+            Impact Grenade,
+            Incendiary Grenade,
+            Mini Grenade,
+            Smoke Grenade,
+            Light Anti-Tank Grenade,
+            Improvised Grenade,
+        }
+        Melee:
+        {
+            Combat Knife,
+            Hellfighter Bolo Knife,
+            Jambiya Knife,
+            Club,
+            Shovel,
+            Cossack Dagger,
+            Ottoman Flanged Mace,
+            Yatagan Sword,
+            Meat Cleaver,
+            Welsh Blade,
+        }
+        Specializations: 3*
+        {
+            Flak,
+            Cover,
+            Quick Regen,
+            Privateer,
+            Awareness,
+            Slink,
+        }
+    }
+}
