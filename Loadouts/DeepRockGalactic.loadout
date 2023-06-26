@@ -2,7 +2,7 @@ Class:
 {
     Driller,
     {
-        Passive Perks: 3*
+        Passive Perks (3):
         {
             Deep Pockets,
             Veteran Depositor,
@@ -18,7 +18,7 @@ Class:
             It's a Bug Thing,
             Thorns,
         }
-        Active Perks: 2*
+        Active Perks (2):
         {
             Berzerker,
             Field Medic,
@@ -93,7 +93,7 @@ Class:
     }
     Engineer,
     {
-        Passive Perks: 3*
+        Passive Perks (3):
         {
             Deep Pockets,
             Veteran Depositor,
@@ -109,7 +109,7 @@ Class:
             It's a Bug Thing,
             Thorns,
         }
-        Active Perks: 2*
+        Active Perks (2):
         {
             Berzerker,
             Field Medic,
@@ -184,7 +184,7 @@ Class:
     }
     Gunner,
     {
-        Passive Perks: 3*
+        Passive Perks (3):
         {
             Deep Pockets,
             Veteran Depositor,
@@ -200,7 +200,7 @@ Class:
             It's a Bug Thing,
             Thorns,
         }
-        Active Perks: 2*
+        Active Perks (2):
         {
             Berzerker,
             Field Medic,
@@ -277,7 +277,7 @@ Class:
     }
     Scout,
     {
-        Passive Perks: 3*
+        Passive Perks (3):
         {
             Deep Pockets,
             Veteran Depositor,
@@ -293,7 +293,7 @@ Class:
             It's a Bug Thing,
             Thorns,
         }
-        Active Perks: 2*
+        Active Perks (2):
         {
             Berzerker,
             Field Medic,
@@ -345,7 +345,7 @@ Class:
                     Stuffed Shells,
                     Shaped Shells,
                     Jumbo Shells,
-                }        
+                }
             }
             Zhukov NUK17,
             {

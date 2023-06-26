@@ -11,7 +11,7 @@ Class:
             Hellfighter Trench Shotgun,
             Sjogren Inertial Slug,
             Ribeyrolles 1918 Optical,
-            Maschinenpistole M1912/P.16 Experimental,
+            Maschinenpistole M1912\/P.16 Experimental,
             M1917 Patrol Carbine,
         }
         Sidearm:
@@ -21,7 +21,7 @@ Class:
             Red Baron's P08,
             M1911 Silencer,
         }
-        Gadgets: 2*
+        Gadgets (2):
         {
             Dynamite,
             Anti-Tank Grenade,
@@ -52,7 +52,7 @@ Class:
             Meat Cleaver,
             Welsh Blade,
         }
-        Specializations: 3*
+        Specializations (3):
         {
             Flak,
             Cover,
@@ -77,7 +77,7 @@ Class:
             Red Baron's P08,
             M1911 Silencer,
         }
-        Gadgets: 2*
+        Gadgets (2):
         {
             Medical Syringe,
             Medical Crate,
@@ -108,7 +108,7 @@ Class:
             Meat Cleaver,
             Welsh Blade,
         }
-        Specializations: 3*
+        Specializations (3):
         {
             Flak,
             Cover,
@@ -132,7 +132,7 @@ Class:
             Red Baron's P08,
             M1911 Silencer,
         }
-        Gadgets: 2*
+        Gadgets (2):
         {
             Ammo Crate,
             Ammo Pouch,
@@ -165,7 +165,7 @@ Class:
             Meat Cleaver,
             Welsh Blade,
         }
-        Specializations: 3*
+        Specializations (3):
         {
             Flak,
             Cover,
@@ -193,7 +193,7 @@ Class:
             Red Baron's P08,
             M1911 Silencer,
         }
-        Gadgets: 2*
+        Gadgets (2):
         {
             K Bullets,
             Trench Periscope,
@@ -226,7 +226,7 @@ Class:
             Meat Cleaver,
             Welsh Blade,
         }
-        Specializations: 3*
+        Specializations (3):
         {
             Flak,
             Cover,

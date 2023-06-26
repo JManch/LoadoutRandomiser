@@ -8,4 +8,10 @@
     <PublishTrimmed>true</PublishTrimmed>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="Spectre.Console">
+      <HintPath>lib\Spectre.Console.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

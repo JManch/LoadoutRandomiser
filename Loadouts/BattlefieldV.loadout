@@ -17,7 +17,7 @@ Class:
             StG 44, {Sights:{1x, 1.5x, 2x, 3x,}}
             Selbstlader 1916, {Sights:{1x, 1.5x, 2x, 3x,}}
             Gewehr 1-5, {Sights:{1x, 1.5x, 2x, 3x,}}
-            Ag m/42, {Sights:{1x, 1.5x, 2x, 3x,}}
+            Ag m\/42, {Sights:{1x, 1.5x, 2x, 3x,}}
             Ribeyrolles 1918, {Sights:{1x, 1.5x, 2x, 3x,}}
             MAS 44, {Sights:{1x, 1.5x, 2x, 3x,}}
             Breda M1935 PG, {Sights:{1x, 1.5x, 2x, 3x,}}
@@ -93,22 +93,22 @@ Class:
         }
         Primary:
         {
-            STEN, {Sights:{1x, 1.25x, 1.5x}}
-            Suomi KP/-31, {Sights:{1x, 1.25x, 1.5x}}
-            MP40, {Sights:{1x, 1.25x, 1.5x}}
-            MP28, {Sights:{1x, 1.25x, 1.5x}}
-            EMP, {Sights:{1x, 1.25x, 1.5x}}
-            MP34, {Sights:{1x, 1.25x, 1.5x}}
-            M1928A1, {Sights:{1x, 1.25x, 1.5x}}
-            ZK-383, {Sights:{1x, 1.25x, 1.5x}}
-            Commando Carbine, {Sights:{1x, 1.25x, 1.5x}}
-            M28 con Tromboncino, {Sights:{1x, 1.25x, 1.5x}}
-            MAB 38, {Sights:{1x, 1.25x, 1.5x}}
-            Jungle Carbine, {Sights:{1x, 1.25x, 1.5x}}
-            Type 100, {Sights:{1x, 1.25x, 1.5x}}
-            M3 Grease Gun, {Sights:{1x, 1.25x, 1.5x}}
-            Type 2A, {Sights:{1x, 1.25x, 1.5x}}
-            Welgun, {Sights:{1x, 1.25x, 1.5x}}
+            STEN, {Sights:{1x, 1.25x, 1.5x,}}
+            Suomi KP\/-31, {Sights:{1x, 1.25x, 1.5x,}}
+            MP40, {Sights:{1x, 1.25x, 1.5x,}}
+            MP28, {Sights:{1x, 1.25x, 1.5x,}}
+            EMP, {Sights:{1x, 1.25x, 1.5x,}}
+            MP34, {Sights:{1x, 1.25x, 1.5x,}}
+            M1928A1, {Sights:{1x, 1.25x, 1.5x,}}
+            ZK-383, {Sights:{1x, 1.25x, 1.5x,}}
+            Commando Carbine, {Sights:{1x, 1.25x, 1.5x,}}
+            M28 con Tromboncino, {Sights:{1x, 1.25x, 1.5x,}}
+            MAB 38, {Sights:{1x, 1.25x, 1.5x,}}
+            Jungle Carbine, {Sights:{1x, 1.25x, 1.5x,}}
+            Type 100, {Sights:{1x, 1.25x, 1.5x,}}
+            M3 Grease Gun, {Sights:{1x, 1.25x, 1.5x,}}
+            Type 2A, {Sights:{1x, 1.25x, 1.5x,}}
+            Welgun, {Sights:{1x, 1.25x, 1.5x,}}
             No Primary Weapon,
         }
         Sidearm:
@@ -172,27 +172,27 @@ Class:
         }
         Primary:
         {
-            KE7, {Sights:{1x, 1.25x, 1.5x, 3x}}
-            Model 37, {Sights:{1x, 1.25x, 1.5x, 3x}}
-            Type 97 MG, {Sights:{1x, 1.25x, 1.5x, 3x}}
-            BAR M1918A2, {Sights:{1x, 1.25x, 1.5x, 3x}}
-            S2-200, {Sights:{1x, 1.25x, 1.5x, 3x}}
-            M1919A6, {Sights:{1x, 1.25x, 1.5x, 3x}}
-            Madsen MG, {Sights:{1x, 1.25x, 1.5x, 3x}}
-            LS/26, {Sights:{1x, 1.25x, 1.5x, 3x}}
-            M1922 MG, {Sights:{1x, 1.25x, 1.5x, 3x}}
-            M1897, {Sights:{1x, 1.25x, 1.5x, 3x}}
-            VGO, {Sights:{1x, 1.25x, 1.5x, 3x}}
-            MG 42, {Sights:{1x, 1.25x, 1.5x, 3x}}
-            FG-42, {Sights:{1x, 1.25x, 1.5x, 3x}}
-            M30 Drilling, {Sights:{1x, 1.25x, 1.5x, 3x}}
-            Lewis Gun, {Sights:{1x, 1.25x, 1.5x, 3x}}
-            Bren Gun, {Sights:{1x, 1.25x, 1.5x, 3x}}
-            12g Automatic, {Sights:{1x, 1.25x, 1.5x, 3x}}
-            MG 34, {Sights:{1x, 1.25x, 1.5x, 3x}}
-            Type 11 LMG, {Sights:{1x, 1.25x, 1.5x, 3x}}
-            Chauchat, {Sights:{1x, 1.25x, 1.5x, 3x}}
-            Sjögren Shotgun, {Sights:{1x, 1.25x, 1.5x, 3x}}
+            KE7, {Sights:{1x, 1.25x, 1.5x, 3x,}}
+            Model 37, {Sights:{1x, 1.25x, 1.5x, 3x,}}
+            Type 97 MG, {Sights:{1x, 1.25x, 1.5x, 3x,}}
+            BAR M1918A2, {Sights:{1x, 1.25x, 1.5x, 3x,}}
+            S2-200, {Sights:{1x, 1.25x, 1.5x, 3x,}}
+            M1919A6, {Sights:{1x, 1.25x, 1.5x, 3x,}}
+            Madsen MG, {Sights:{1x, 1.25x, 1.5x, 3x,}}
+            LS\/26, {Sights:{1x, 1.25x, 1.5x, 3x,}}
+            M1922 MG, {Sights:{1x, 1.25x, 1.5x, 3x,}}
+            M1897, {Sights:{1x, 1.25x, 1.5x, 3x,}}
+            VGO, {Sights:{1x, 1.25x, 1.5x, 3x,}}
+            MG 42, {Sights:{1x, 1.25x, 1.5x, 3x,}}
+            FG-42, {Sights:{1x, 1.25x, 1.5x, 3x,}}
+            M30 Drilling, {Sights:{1x, 1.25x, 1.5x, 3x,}}
+            Lewis Gun, {Sights:{1x, 1.25x, 1.5x, 3x,}}
+            Bren Gun, {Sights:{1x, 1.25x, 1.5x, 3x,}}
+            12g Automatic, {Sights:{1x, 1.25x, 1.5x, 3x,}}
+            MG 34, {Sights:{1x, 1.25x, 1.5x, 3x,}}
+            Type 11 LMG, {Sights:{1x, 1.25x, 1.5x, 3x,}}
+            Chauchat, {Sights:{1x, 1.25x, 1.5x, 3x,}}
+            Sjögren Shotgun, {Sights:{1x, 1.25x, 1.5x, 3x,}}
             No Primary Weapon,
         }
         Sidearm:
@@ -260,22 +260,22 @@ Class:
         }
         Primary:
         {
-            Lee-Enfield No.4 MK1, {Sights:{1.5x, 2x, 3x, 6x}}
-            Model 8, {Sights:{1.5x, 2x, 3x, 6x}}
-            Gewehr M95/30, {Sights:{1.5x, 2x, 3x, 6x}}
-            ZH-29, {Sights:{1.5x, 2x, 3x, 6x}}
-            Krag-Jørgensen, {Sights:{1.5x, 2x, 3x, 6x}}
-            RSC, {Sights:{1.5x, 2x, 3x, 6x}}
-            Kar98k, {Sights:{1.5x, 2x, 3x, 6x}}
-            Selbstlader 1906, {Sights:{1.5x, 2x, 3x, 6x}}
-            Ross Rifle Mk III, {Sights:{1.5x, 2x, 3x, 6x}}
-            Boys AT Rifle, {Sights:{1.5x, 2x, 3x, 6x}}
-            P08 Carbine, {Sights:{1.5x, 2x, 3x, 6x}}
-            Panzerbüchse 39, {Sights:{1.5x, 2x, 3x, 6x}}
-            Type 99 Arisaka, {Sights:{1.5x, 2x, 3x, 6x}}
-            Trench Carbine, {Sights:{1.5x, 2x, 3x, 6x}}
-            M3 Infrared, {Sights:{1.5x, 2x, 3x, 6x}}
-            K31/43, {Sights:{1.5x, 2x, 3x, 6x}}
+            Lee-Enfield No.4 MK1, {Sights:{1.5x, 2x, 3x, 6x,}}
+            Model 8, {Sights:{1.5x, 2x, 3x, 6x,}}
+            Gewehr M95\/30, {Sights:{1.5x, 2x, 3x, 6x,}}
+            ZH-29, {Sights:{1.5x, 2x, 3x, 6x,}}
+            Krag-Jørgensen, {Sights:{1.5x, 2x, 3x, 6x,}}
+            RSC, {Sights:{1.5x, 2x, 3x, 6x,}}
+            Kar98k, {Sights:{1.5x, 2x, 3x, 6x,}}
+            Selbstlader 1906, {Sights:{1.5x, 2x, 3x, 6x,}}
+            Ross Rifle Mk III, {Sights:{1.5x, 2x, 3x, 6x,}}
+            Boys AT Rifle, {Sights:{1.5x, 2x, 3x, 6x,}}
+            P08 Carbine, {Sights:{1.5x, 2x, 3x, 6x,}}
+            Panzerbüchse 39, {Sights:{1.5x, 2x, 3x, 6x,}}
+            Type 99 Arisaka, {Sights:{1.5x, 2x, 3x, 6x,}}
+            Trench Carbine, {Sights:{1.5x, 2x, 3x, 6x,}}
+            M3 Infrared, {Sights:{1.5x, 2x, 3x, 6x,}}
+            K31\/43, {Sights:{1.5x, 2x, 3x, 6x,}}
             No Primary Weapon,
         }
         Sidearm:
