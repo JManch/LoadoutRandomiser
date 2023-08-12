@@ -16,8 +16,8 @@ using Spectre.Console;
 
 namespace LoadoutRandomiser {
 public static class Database {
-    private static Dictionary<int, Option> _enabledOptions = new();
-    private static Dictionary<int, Option> _disabledOptions = new();
+    private static Dictionary<int, Option> EnabledOptions = new();
+    private static Dictionary<int, Option> DisabledOptions = new();
 
     public struct SelectionCategory {
         public string Name { get; set; }
@@ -39,11 +39,11 @@ public static class Database {
 
     private static void DisableOption(Loadout loadout, Option option) {
         if (loadout.DisabledNodes.Contains(option.Id)) {
-            if (_enabledOptions.ContainsKey(option.Id))
-                _enabledOptions.Remove(option.Id);
+            if (EnabledOptions.ContainsKey(option.Id))
+                EnabledOptions.Remove(option.Id);
         } else {
-            if (!_disabledOptions.ContainsKey(option.Id))
-                _disabledOptions.Add(option.Id, option);
+            if (!DisabledOptions.ContainsKey(option.Id))
+                DisabledOptions.Add(option.Id, option);
         }
     }
 
@@ -56,11 +56,11 @@ public static class Database {
 
     private static void EnableOption(Loadout loadout, Option option) {
         if (!loadout.DisabledNodes.Contains(option.Id)) {
-            if (_disabledOptions.ContainsKey(option.Id))
-                _disabledOptions.Remove(option.Id);
+            if (DisabledOptions.ContainsKey(option.Id))
+                DisabledOptions.Remove(option.Id);
         } else {
-            if (!_enabledOptions.ContainsKey(option.Id))
-                _enabledOptions.Add(option.Id, option);
+            if (!EnabledOptions.ContainsKey(option.Id))
+                EnabledOptions.Add(option.Id, option);
         }
     }
 
@@ -126,8 +126,8 @@ public static class Database {
         var parent = category.Parent;
         while (parent != null) {
             if ((loadout.DisabledNodes.Contains(parent.Id) ||
-                 _disabledOptions.ContainsKey(parent.Id)) &&
-                !_enabledOptions.ContainsKey(parent.Id)) {
+                 DisabledOptions.ContainsKey(parent.Id)) &&
+                !EnabledOptions.ContainsKey(parent.Id)) {
                 disabledParent = string.Format(
                     "[white]{0} [blue bold]>[/] [italic bold]{1}[/][/]",
                     parent.Parent.Name, parent.Name);
@@ -140,9 +140,9 @@ public static class Database {
         for (int i = 0; i < options.Length; i++) {
             var nodeID = options[i].Option.Id;
             if (disabledParent != string.Empty ||
-                _disabledOptions.ContainsKey(nodeID))
+                DisabledOptions.ContainsKey(nodeID))
                 options[i].Name = string.Format("[red]{0}[/]", options[i].Name);
-            else if (_enabledOptions.ContainsKey(nodeID))
+            else if (EnabledOptions.ContainsKey(nodeID))
                 options[i].Name =
                     string.Format("[green]{0}[/]", options[i].Name);
             else if (loadout.DisabledNodes.Contains(nodeID))
@@ -247,6 +247,9 @@ public static class Database {
         if (!LoadoutParser.TryGetLoadout(loadoutName, out loadout))
             return;
 
+        DisabledOptions.Clear();
+        EnabledOptions.Clear();
+
         AnsiConsole.WriteLine();
         var categories = loadout.GetCategories();
 
@@ -258,13 +261,13 @@ public static class Database {
             BrowseOptions(loadout, category.Category);
         }
 
-        if (_enabledOptions.Count + _disabledOptions.Count > 0) {
+        if (EnabledOptions.Count + DisabledOptions.Count > 0) {
             var table = new Table().Centered().RoundedBorder();
             table.AddColumn(new TableColumn("[white bold]Modified Option[/]"));
             table.AddColumn(new TableColumn("[white bold]New Value[/]"));
-            foreach (var option in _enabledOptions.Values)
+            foreach (var option in EnabledOptions.Values)
                 table.AddRow(option.PathName, "[green]enabled[/]");
-            foreach (var option in _disabledOptions.Values)
+            foreach (var option in DisabledOptions.Values)
                 table.AddRow(option.PathName, "[red]disabled[/]");
             AnsiConsole.Write(table);
             AnsiConsole.WriteLine();
@@ -275,8 +278,8 @@ public static class Database {
                     .AddChoices(new[] { "[green]yes[/]", "[red]no[/]" }));
 
             if (Markup.Remove(confirmation) == "yes") {
-                UpdateDatabase(loadout, _disabledOptions.Values.ToArray(),
-                               _enabledOptions.Values.ToArray());
+                UpdateDatabase(loadout, DisabledOptions.Values.ToArray(),
+                               EnabledOptions.Values.ToArray());
                 AnsiConsole.Write(
                     new Rule("[green]Saved modifications[/]").Centered());
             } else

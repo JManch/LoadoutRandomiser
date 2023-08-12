@@ -16,7 +16,7 @@ public static class LoadoutParser {
             return _loadouts.Values.ToArray();
         }
     }
-    private static int sleepTime = 100;
+    private static int sleepTime = 2000;
 
     public static void LoadLoadouts() {
         AnsiConsole.Status().Start("[#FFA500]Search for loadouts...[/]", ctx => {

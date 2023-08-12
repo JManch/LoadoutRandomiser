@@ -6,6 +6,9 @@ using LoadoutRandomiser.Parsing;
 
 namespace LoadoutRandomiser {
 public static class Console {
+
+    private static Loadout LastRandomisedLoadout;
+
     public static void Start() {
         AnsiConsole.Console.Clear();
         AnsiConsole.Write(
@@ -56,10 +59,11 @@ public static class Console {
         }
     }
 
-    public static void GenerateLoadout(string loadoutName) {
+    public static void GenerateLoadout(string loadoutName, bool last = false) {
         Loadout loadout;
-        if (LoadoutParser.TryGetLoadout(loadoutName, out loadout))
+        if (LoadoutParser.TryGetLoadout(loadoutName, out loadout)) {
             loadout.Randomise();
+        }
     }
 
     public static void PrintHelp() { return; }
